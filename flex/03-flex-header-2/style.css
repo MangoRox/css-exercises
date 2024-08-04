@@ -10,12 +10,15 @@ body {
 
 .header {
   background: white;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #4b1313;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .profile-image {
-  background: rebeccapurple;
+  background: rgb(124, 28, 28);
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
@@ -32,17 +35,23 @@ body {
 button {
   border: none;
   border-radius: 8px;
-  background: rebeccapurple;
+  background: rgb(51, 150, 153);
   color: white;
   padding: 8px 24px;
+  
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
-  color: rebeccapurple;
+  color: rgb(136, 0, 0);
+  
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
